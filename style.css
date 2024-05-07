@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: #68b9e7;
+    color: white;
+  }
+  .cabecalho-imagem{ width: 20%
+  }
+  .cabecalho {
+    background-color:#68b9e7;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    padding: 24 0px;
+  }
+  .cabecalho-lista-item{
+      display: inline-block;
+      margin: 0 16px;
+      padding: 24 0px;
+      font-size: 24px;
+  }
+  .escola-imagem{
+    width:25%;
+  }
+  .escola{
+    background-image: linear-gradient(#68b9e7,#e100ff);
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+  }
+  .estudantediv {
+    text-align: center;
+   }
+   .estudante-todos {
+  
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20%;
+   }
+   .estudante-titulo{
+    text-align:center;
+  }
+  footer{
+   background-color: black;
+  }
+   
